@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8EF33C218AC9650031B491 /* MBMocutCadeEvent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF48D72218806BC00673395 /* MBMocutCadeEvent.h */; };
+		9B8EF33D218AC9650031B491 /* MBMocutStickEvent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF48D79218A9C6A00673395 /* MBMocutStickEvent.h */; };
+		9B8EF344218AE9F90031B491 /* MBCadeTempVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EF343218AE9F90031B491 /* MBCadeTempVar.m */; };
+		9B8EF347218AF0040031B491 /* MBNumberHexTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EF346218AF0040031B491 /* MBNumberHexTool.m */; };
+		9BF48D302186E65F00673395 /* MBLUESDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF48D2F2186E65F00673395 /* MBLUESDK.m */; };
+		9BF48D312186E65F00673395 /* MBLUESDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF48D2E2186E65F00673395 /* MBLUESDK.h */; };
+		9BF48D692186F0FD00673395 /* BeCentralVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF48D682186F0FD00673395 /* BeCentralVewController.m */; };
+		9BF48D7121871BAC00673395 /* MBCadeValueManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF48D7021871BAC00673395 /* MBCadeValueManage.m */; };
+		9BF48D74218806BC00673395 /* MBMocutCadeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF48D73218806BC00673395 /* MBMocutCadeEvent.m */; };
+		9BF48D7B218A9C6A00673395 /* MBMocutStickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF48D7A218A9C6A00673395 /* MBMocutStickEvent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BF48D292186E65F00673395 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9B8EF33C218AC9650031B491 /* MBMocutCadeEvent.h in CopyFiles */,
+				9B8EF33D218AC9650031B491 /* MBMocutStickEvent.h in CopyFiles */,
+				9BF48D312186E65F00673395 /* MBLUESDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B8EF342218AE9F90031B491 /* MBCadeTempVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCadeTempVar.h; sourceTree = "<group>"; };
+		9B8EF343218AE9F90031B491 /* MBCadeTempVar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCadeTempVar.m; sourceTree = "<group>"; };
+		9B8EF345218AF0040031B491 /* MBNumberHexTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBNumberHexTool.h; sourceTree = "<group>"; };
+		9B8EF346218AF0040031B491 /* MBNumberHexTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBNumberHexTool.m; sourceTree = "<group>"; };
+		9BF48D2B2186E65F00673395 /* libMBLUESDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBLUESDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF48D2E2186E65F00673395 /* MBLUESDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBLUESDK.h; sourceTree = "<group>"; };
+		9BF48D2F2186E65F00673395 /* MBLUESDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBLUESDK.m; sourceTree = "<group>"; };
+		9BF48D672186F0FD00673395 /* BeCentralVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeCentralVewController.h; sourceTree = "<group>"; };
+		9BF48D682186F0FD00673395 /* BeCentralVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeCentralVewController.m; sourceTree = "<group>"; };
+		9BF48D6C2186F83600673395 /* MB_Notice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MB_Notice.h; sourceTree = "<group>"; };
+		9BF48D6F21871BAC00673395 /* MBCadeValueManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCadeValueManage.h; sourceTree = "<group>"; };
+		9BF48D7021871BAC00673395 /* MBCadeValueManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCadeValueManage.m; sourceTree = "<group>"; };
+		9BF48D72218806BC00673395 /* MBMocutCadeEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMocutCadeEvent.h; sourceTree = "<group>"; };
+		9BF48D73218806BC00673395 /* MBMocutCadeEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBMocutCadeEvent.m; sourceTree = "<group>"; };
+		9BF48D79218A9C6A00673395 /* MBMocutStickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMocutStickEvent.h; sourceTree = "<group>"; };
+		9BF48D7A218A9C6A00673395 /* MBMocutStickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBMocutStickEvent.m; sourceTree = "<group>"; };
+		9BF48D7C218A9E1800673395 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF48D282186E65F00673395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF48D222186E65F00673395 = {
+			isa = PBXGroup;
+			children = (
+				9BF48D2D2186E65F00673395 /* MBLUESDK */,
+				9BF48D2C2186E65F00673395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF48D2C2186E65F00673395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF48D2B2186E65F00673395 /* libMBLUESDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF48D2D2186E65F00673395 /* MBLUESDK */ = {
+			isa = PBXGroup;
+			children = (
+				9BF48D2E2186E65F00673395 /* MBLUESDK.h */,
+				9BF48D2F2186E65F00673395 /* MBLUESDK.m */,
+				9BF48D662186F0FD00673395 /* BleMangeCenter */,
+			);
+			path = MBLUESDK;
+			sourceTree = "<group>";
+		};
+		9BF48D662186F0FD00673395 /* BleMangeCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9BF48D672186F0FD00673395 /* BeCentralVewController.h */,
+				9BF48D682186F0FD00673395 /* BeCentralVewController.m */,
+				9BF48D6C2186F83600673395 /* MB_Notice.h */,
+				9BF48D72218806BC00673395 /* MBMocutCadeEvent.h */,
+				9BF48D73218806BC00673395 /* MBMocutCadeEvent.m */,
+				9BF48D79218A9C6A00673395 /* MBMocutStickEvent.h */,
+				9BF48D7A218A9C6A00673395 /* MBMocutStickEvent.m */,
+				9BF48D6F21871BAC00673395 /* MBCadeValueManage.h */,
+				9BF48D7021871BAC00673395 /* MBCadeValueManage.m */,
+				9B8EF342218AE9F90031B491 /* MBCadeTempVar.h */,
+				9B8EF343218AE9F90031B491 /* MBCadeTempVar.m */,
+				9B8EF345218AF0040031B491 /* MBNumberHexTool.h */,
+				9B8EF346218AF0040031B491 /* MBNumberHexTool.m */,
+				9BF48D7C218A9E1800673395 /* PrefixHeader.pch */,
+			);
+			path = BleMangeCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF48D2A2186E65F00673395 /* MBLUESDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF48D342186E65F00673395 /* Build configuration list for PBXNativeTarget "MBLUESDK" */;
+			buildPhases = (
+				9BF48D272186E65F00673395 /* Sources */,
+				9BF48D282186E65F00673395 /* Frameworks */,
+				9BF48D292186E65F00673395 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBLUESDK;
+			productName = MBLUESDK;
+			productReference = 9BF48D2B2186E65F00673395 /* libMBLUESDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF48D232186E65F00673395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					9BF48D2A2186E65F00673395 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9BF48D262186E65F00673395 /* Build configuration list for PBXProject "MBLUESDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BF48D222186E65F00673395;
+			productRefGroup = 9BF48D2C2186E65F00673395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF48D2A2186E65F00673395 /* MBLUESDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF48D272186E65F00673395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF48D7121871BAC00673395 /* MBCadeValueManage.m in Sources */,
+				9BF48D302186E65F00673395 /* MBLUESDK.m in Sources */,
+				9B8EF344218AE9F90031B491 /* MBCadeTempVar.m in Sources */,
+				9BF48D74218806BC00673395 /* MBMocutCadeEvent.m in Sources */,
+				9B8EF347218AF0040031B491 /* MBNumberHexTool.m in Sources */,
+				9BF48D692186F0FD00673395 /* BeCentralVewController.m in Sources */,
+				9BF48D7B218A9C6A00673395 /* MBMocutStickEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BF48D322186E65F00673395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BF48D332186E65F00673395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF48D352186E65F00673395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEE359H7GK;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MBLUESDK/BleMangeCenter/PrefixHeader.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF48D362186E65F00673395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEE359H7GK;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MBLUESDK/BleMangeCenter/PrefixHeader.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF48D262186E65F00673395 /* Build configuration list for PBXProject "MBLUESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF48D322186E65F00673395 /* Debug */,
+				9BF48D332186E65F00673395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF48D342186E65F00673395 /* Build configuration list for PBXNativeTarget "MBLUESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF48D352186E65F00673395 /* Debug */,
+				9BF48D362186E65F00673395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF48D232186E65F00673395 /* Project object */;
+}
